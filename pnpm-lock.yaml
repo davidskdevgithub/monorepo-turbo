@@ -14,6 +14,9 @@ importers:
       turbo:
         specifier: ^2.5.1
         version: 2.5.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
 
 packages:
 
@@ -163,4 +166,10 @@ packages:
       turbo-linux-arm64: 2.5.1
       turbo-windows-64: 2.5.1
       turbo-windows-arm64: 2.5.1
+    dev: true
+
+  /typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
     dev: true

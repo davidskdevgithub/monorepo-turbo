@@ -1,5 +1,4 @@
-import path from "node:path";
-// const path = require("path");
+const path = require("path");
 const { getDefaultConfig } = require("expo/metro-config");
 
 const projectRoot = __dirname;

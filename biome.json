@@ -7,13 +7,13 @@
 	},
 	"files": {
 		"ignore": [
-      "node_modules/",
-      "dist/",
-      "build/",
-      ".next/",
-      ".expo/",
-      ".turbo/"
-    ]
+			"node_modules/",
+			"dist/",
+			"build/",
+			".next/",
+			".expo/",
+			".turbo/"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -32,5 +32,32 @@
 		"formatter": {
 			"quoteStyle": "double"
 		}
-	}
+	},
+	"overrides": [
+		{
+			"include": ["apps/api/**"],
+			"linter": {
+				"rules": {
+					"style": {
+						"useImportType": "off"
+					}
+				}
+			},
+			"javascript": {
+				"parser": {
+					"unsafeParameterDecoratorsEnabled": true
+				}
+			}
+		},
+		{
+			"include": ["apps/api/src/trpc/@generated/server.ts"],
+			"linter": {
+				"rules": {
+					"suspicious": {
+						"noExplicitAny": "off"
+					}
+				}
+			}
+		}
+	]
 }

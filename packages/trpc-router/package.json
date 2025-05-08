@@ -1,0 +1,9 @@
+{
+	"name": "@repo/trpc-router",
+	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
+	"exports": {
+		"/": "./src/@generated/server.ts"
+	}
+}

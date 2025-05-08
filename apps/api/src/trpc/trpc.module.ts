@@ -5,7 +5,7 @@ import { TrpcPanelController } from "./trpc-panel.controller";
 @Module({
 	imports: [
 		TRPCModule.forRoot({
-			autoSchemaFile: "src/trpc/@generated",
+			autoSchemaFile: "../../packages/trpc-router/src/@generated",
 		}),
 	],
 	controllers: [TrpcPanelController],

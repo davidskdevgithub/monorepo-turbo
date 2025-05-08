@@ -50,7 +50,7 @@
 			}
 		},
 		{
-			"include": ["apps/api/src/trpc/@generated/server.ts"],
+			"include": ["packages/trpc-router/src/@generated/server.ts"],
 			"linter": {
 				"rules": {
 					"suspicious": {

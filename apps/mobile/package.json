@@ -16,6 +16,10 @@
 		"preset": "jest-expo"
 	},
 	"dependencies": {
+		"@repo/trpc-router": "workspace:*",
+		"@tanstack/react-query": "4",
+		"@trpc/client": "^10.45.2",
+		"@trpc/react-query": "^10.45.2",
 		"@expo/vector-icons": "^14.0.2",
 		"@react-navigation/bottom-tabs": "^7.2.0",
 		"@react-navigation/native": "^7.0.14",

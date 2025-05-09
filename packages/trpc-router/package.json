@@ -4,6 +4,6 @@
 	"private": true,
 	"license": "MIT",
 	"exports": {
-		"/": "./src/@generated/server.ts"
+		"./router": "./src/@generated/server.ts"
 	}
 }
